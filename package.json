@@ -1,11 +1,11 @@
 {
   "name": "find-my-click-font-icons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Find My Click Font Icons",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thiagofranchin/find-my-click-font-icons.git"
+    "url": "git+https://github.com/thiagofranchin/findmyclick.git"
   },
   "keywords": [
     "icons",
@@ -27,7 +27,7 @@
   "author": "Thiago Franchin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thiagofranchin/find-my-click-font-icons.git/issues"
+    "url": "https://github.com/thiagofranchin/findmyclick.git/issues"
   },
-  "homepage": "https://github.com/thiagofranchin/find-my-click-font-icons.git#readme"
+  "homepage": "https://github.com/thiagofranchin/findmyclick.git#readme"
 } 

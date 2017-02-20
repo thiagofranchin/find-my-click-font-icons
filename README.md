@@ -7,7 +7,7 @@
 ### npm
 
 ```console
-$ npm install find-my-click-font-icons --save
+$ npm install findmyclick --save
 ```
 
 ## Instalação
