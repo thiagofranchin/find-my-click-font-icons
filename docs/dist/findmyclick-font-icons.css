@@ -1,0 +1,38 @@
+@font-face {
+	font-family: "findmyclick-font-icons";
+	src: url('fonts/findmyclick-font-icons.eot');
+	src: url('fonts/findmyclick-font-icons.eot?#iefix') format('eot'),
+		url('fonts/findmyclick-font-icons.woff2') format('woff2'),
+		url('fonts/findmyclick-font-icons.woff') format('woff'),
+		url('fonts/findmyclick-font-icons.ttf') format('truetype'),
+		url('fonts/findmyclick-font-icons.svg#findmyclick-font-icons') format('svg');
+}
+
+.fmc:before {
+	font-family: "findmyclick-font-icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.fmc-find-my-click:before {
+	content: "\E001";
+}
+
+.fmc-search:before {
+	content: "\E002";
+}
+
+.fmc-github:before {
+	content: "\E003";
+}
+
+.fmc-desktop:before {
+	content: "\E004";
+}
