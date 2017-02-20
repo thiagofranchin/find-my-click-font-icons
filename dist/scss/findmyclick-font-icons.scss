@@ -1,0 +1,68 @@
+@font-face {
+	font-family: "findmyclick-font-icons";
+	src: url('#{$ingaia-icons-font-path}findmyclick-font-icons.eot');
+	src: url('#{$ingaia-icons-font-path}findmyclick-font-icons.eot?#iefix') format('eot'),
+		url('#{$ingaia-icons-font-path}findmyclick-font-icons.woff2') format('woff2'),
+		url('#{$ingaia-icons-font-path}findmyclick-font-icons.woff') format('woff'),
+		url('#{$ingaia-icons-font-path}findmyclick-font-icons.ttf') format('truetype'),
+		url('#{$ingaia-icons-font-path}findmyclick-font-icons.svg#findmyclick-font-icons') format('svg');
+}
+
+@mixin fmc-styles {
+	font-family: "findmyclick-font-icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+	text-decoration: none;
+	text-transform: none;
+}
+
+%fmc {
+	@include fmc-styles;
+}
+
+@function fmc-char($filename) {
+	$char: "";
+
+	@if $filename == find-my-click {
+		$char: "\E001";
+	}
+	@if $filename == search {
+		$char: "\E002";
+	}
+	@if $filename == github {
+		$char: "\E003";
+	}
+	@if $filename == desktop {
+		$char: "\E004";
+	}
+
+	@return $char;
+}
+
+@mixin fmc($filename, $insert: before, $extend: true) {
+	&:#{$insert} {
+		@if $extend {
+			@extend %fmc;
+		} @else {
+			@include fmc-styles;
+		}
+		content: fmc-char($filename);
+	}
+}
+
+.fmc-find-my-click {
+	@include fmc(find-my-click);
+}
+.fmc-search {
+	@include fmc(search);
+}
+.fmc-github {
+	@include fmc(github);
+}
+.fmc-desktop {
+	@include fmc(desktop);
+}
