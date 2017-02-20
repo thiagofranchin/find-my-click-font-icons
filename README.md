@@ -1,6 +1,6 @@
 # Find My Click Font Icons
 
-[Site](https://find-my-click.github.io/font.icons/) 
+[Site](https://thiagofranchin.github.io/findmyclick/) 
 
 ## Download
 
