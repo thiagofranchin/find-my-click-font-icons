@@ -39,6 +39,9 @@
 	@if $filename == desktop {
 		$char: "\E004";
 	}
+	@if $filename == adicionar-fotos {
+		$char: "\E005";
+	}
 
 	@return $char;
 }
@@ -65,4 +68,7 @@
 }
 .fmc-desktop {
 	@include fmc(desktop);
+}
+.fmc-adicionar-fotos {
+	@include fmc(adicionar-fotos);
 }

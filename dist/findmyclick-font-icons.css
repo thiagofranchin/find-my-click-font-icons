@@ -36,3 +36,7 @@
 .fmc-desktop:before {
 	content: "\E004";
 }
+
+.fmc-adicionar-fotos:before {
+	content: "\E005";
+}
