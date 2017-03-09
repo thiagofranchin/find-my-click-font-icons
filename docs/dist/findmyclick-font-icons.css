@@ -36,3 +36,155 @@
 .fmc-desktop:before {
 	content: "\E004";
 }
+
+.fmc-ctg_animal:before {
+	content: "\E005";
+}
+
+.fmc-ctg_baby:before {
+	content: "\E006";
+}
+
+.fmc-ctg_car_moto:before {
+	content: "\E007";
+}
+
+.fmc-ctg_family:before {
+	content: "\E008";
+}
+
+.fmc-ctg_gastronomy:before {
+	content: "\E009";
+}
+
+.fmc-ctg_graduation:before {
+	content: "\E00A";
+}
+
+.fmc-ctg_industrial:before {
+	content: "\E00B";
+}
+
+.fmc-ctg_model:before {
+	content: "\E00C";
+}
+
+.fmc-ctg_nature:before {
+	content: "\E00D";
+}
+
+.fmc-ctg_outdoor:before {
+	content: "\E00E";
+}
+
+.fmc-ctg_party:before {
+	content: "\E00F";
+}
+
+.fmc-ctg_portrait:before {
+	content: "\E010";
+}
+
+.fmc-ctg_pregnant:before {
+	content: "\E011";
+}
+
+.fmc-ctg_products:before {
+	content: "\E012";
+}
+
+.fmc-ctg_sensual:before {
+	content: "\E013";
+}
+
+.fmc-ctg_sport:before {
+	content: "\E014";
+}
+
+.fmc-ctg_underwater:before {
+	content: "\E015";
+}
+
+.fmc-ctg_urban:before {
+	content: "\E016";
+}
+
+.fmc-ctg_weding:before {
+	content: "\E017";
+}
+
+.fmc-eqp_camera:before {
+	content: "\E018";
+}
+
+.fmc-eqp_drone:before {
+	content: "\E019";
+}
+
+.fmc-eqp_rightzoom:before {
+	content: "\E01A";
+}
+
+.fmc-eqp_video_camera:before {
+	content: "\E01B";
+}
+
+.fmc-menu_add_photo:before {
+	content: "\E01C";
+}
+
+.fmc-menu_amador:before {
+	content: "\E01D";
+}
+
+.fmc-menu_app_store:before {
+	content: "\E01E";
+}
+
+.fmc-menu_categories:before {
+	content: "\E01F";
+}
+
+.fmc-menu_dashboard:before {
+	content: "\E020";
+}
+
+.fmc-menu_equipaments:before {
+	content: "\E021";
+}
+
+.fmc-menu_facebook:before {
+	content: "\E022";
+}
+
+.fmc-menu_filter:before {
+	content: "\E023";
+}
+
+.fmc-menu_list:before {
+	content: "\E024";
+}
+
+.fmc-menu_map:before {
+	content: "\E025";
+}
+
+.fmc-menu_photos:before {
+	content: "\E026";
+}
+
+.fmc-menu_price:before {
+	content: "\E027";
+}
+
+.fmc-menu_professional:before {
+	content: "\E028";
+}
+
+.fmc-menu_profile:before {
+	content: "\E029";
+}
+
+.fmc-menu_settings:before {
+	content: "\E02A";
+}
