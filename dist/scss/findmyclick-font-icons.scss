@@ -39,8 +39,119 @@
 	@if $filename == desktop {
 		$char: "\E004";
 	}
-	@if $filename == adicionar-fotos {
+	@if $filename == ctg_animal {
 		$char: "\E005";
+	}
+	@if $filename == ctg_baby {
+		$char: "\E006";
+	}
+	@if $filename == ctg_car_moto {
+		$char: "\E007";
+	}
+	@if $filename == ctg_family {
+		$char: "\E008";
+	}
+	@if $filename == ctg_gastronomy {
+		$char: "\E009";
+	}
+	@if $filename == ctg_graduation {
+		$char: "\E00A";
+	}
+	@if $filename == ctg_industrial {
+		$char: "\E00B";
+	}
+	@if $filename == ctg_model {
+		$char: "\E00C";
+	}
+	@if $filename == ctg_nature {
+		$char: "\E00D";
+	}
+	@if $filename == ctg_outdoor {
+		$char: "\E00E";
+	}
+	@if $filename == ctg_party {
+		$char: "\E00F";
+	}
+	@if $filename == ctg_portrait {
+		$char: "\E010";
+	}
+	@if $filename == ctg_pregnant {
+		$char: "\E011";
+	}
+	@if $filename == ctg_products {
+		$char: "\E012";
+	}
+	@if $filename == ctg_sensual {
+		$char: "\E013";
+	}
+	@if $filename == ctg_sport {
+		$char: "\E014";
+	}
+	@if $filename == ctg_underwater {
+		$char: "\E015";
+	}
+	@if $filename == ctg_urban {
+		$char: "\E016";
+	}
+	@if $filename == ctg_weding {
+		$char: "\E017";
+	}
+	@if $filename == eqp_camera {
+		$char: "\E018";
+	}
+	@if $filename == eqp_drone {
+		$char: "\E019";
+	}
+	@if $filename == eqp_rightzoom {
+		$char: "\E01A";
+	}
+	@if $filename == eqp_video_camera {
+		$char: "\E01B";
+	}
+	@if $filename == menu_add_photo {
+		$char: "\E01C";
+	}
+	@if $filename == menu_amador {
+		$char: "\E01D";
+	}
+	@if $filename == menu_app_store {
+		$char: "\E01E";
+	}
+	@if $filename == menu_categories {
+		$char: "\E01F";
+	}
+	@if $filename == menu_dashboard {
+		$char: "\E020";
+	}
+	@if $filename == menu_equipaments {
+		$char: "\E021";
+	}
+	@if $filename == menu_facebook {
+		$char: "\E022";
+	}
+	@if $filename == menu_filter {
+		$char: "\E023";
+	}
+	@if $filename == menu_list {
+		$char: "\E024";
+	}
+	@if $filename == menu_map {
+		$char: "\E025";
+	}
+	@if $filename == menu_photos {
+		$char: "\E026";
+	}
+	@if $filename == menu_price {
+		$char: "\E027";
+	}
+	@if $filename == menu_professional {
+		$char: "\E028";
+	}
+	@if $filename == menu_profile {
+		$char: "\E029";
+	}
+	@if $filename == menu_settings {
+		$char: "\E02A";
 	}
 
 	@return $char;
@@ -69,6 +180,117 @@
 .fmc-desktop {
 	@include fmc(desktop);
 }
-.fmc-adicionar-fotos {
-	@include fmc(adicionar-fotos);
+.fmc-ctg_animal {
+	@include fmc(ctg_animal);
+}
+.fmc-ctg_baby {
+	@include fmc(ctg_baby);
+}
+.fmc-ctg_car_moto {
+	@include fmc(ctg_car_moto);
+}
+.fmc-ctg_family {
+	@include fmc(ctg_family);
+}
+.fmc-ctg_gastronomy {
+	@include fmc(ctg_gastronomy);
+}
+.fmc-ctg_graduation {
+	@include fmc(ctg_graduation);
+}
+.fmc-ctg_industrial {
+	@include fmc(ctg_industrial);
+}
+.fmc-ctg_model {
+	@include fmc(ctg_model);
+}
+.fmc-ctg_nature {
+	@include fmc(ctg_nature);
+}
+.fmc-ctg_outdoor {
+	@include fmc(ctg_outdoor);
+}
+.fmc-ctg_party {
+	@include fmc(ctg_party);
+}
+.fmc-ctg_portrait {
+	@include fmc(ctg_portrait);
+}
+.fmc-ctg_pregnant {
+	@include fmc(ctg_pregnant);
+}
+.fmc-ctg_products {
+	@include fmc(ctg_products);
+}
+.fmc-ctg_sensual {
+	@include fmc(ctg_sensual);
+}
+.fmc-ctg_sport {
+	@include fmc(ctg_sport);
+}
+.fmc-ctg_underwater {
+	@include fmc(ctg_underwater);
+}
+.fmc-ctg_urban {
+	@include fmc(ctg_urban);
+}
+.fmc-ctg_weding {
+	@include fmc(ctg_weding);
+}
+.fmc-eqp_camera {
+	@include fmc(eqp_camera);
+}
+.fmc-eqp_drone {
+	@include fmc(eqp_drone);
+}
+.fmc-eqp_rightzoom {
+	@include fmc(eqp_rightzoom);
+}
+.fmc-eqp_video_camera {
+	@include fmc(eqp_video_camera);
+}
+.fmc-menu_add_photo {
+	@include fmc(menu_add_photo);
+}
+.fmc-menu_amador {
+	@include fmc(menu_amador);
+}
+.fmc-menu_app_store {
+	@include fmc(menu_app_store);
+}
+.fmc-menu_categories {
+	@include fmc(menu_categories);
+}
+.fmc-menu_dashboard {
+	@include fmc(menu_dashboard);
+}
+.fmc-menu_equipaments {
+	@include fmc(menu_equipaments);
+}
+.fmc-menu_facebook {
+	@include fmc(menu_facebook);
+}
+.fmc-menu_filter {
+	@include fmc(menu_filter);
+}
+.fmc-menu_list {
+	@include fmc(menu_list);
+}
+.fmc-menu_map {
+	@include fmc(menu_map);
+}
+.fmc-menu_photos {
+	@include fmc(menu_photos);
+}
+.fmc-menu_price {
+	@include fmc(menu_price);
+}
+.fmc-menu_professional {
+	@include fmc(menu_professional);
+}
+.fmc-menu_profile {
+	@include fmc(menu_profile);
+}
+.fmc-menu_settings {
+	@include fmc(menu_settings);
 }
