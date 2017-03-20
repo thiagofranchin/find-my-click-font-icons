@@ -188,3 +188,47 @@
 .fmc-menu_settings:before {
 	content: "\E02A";
 }
+
+.fmc-ctg_advertising:before {
+	content: "\E02B";
+}
+
+.fmc-eqp_go_pro:before {
+	content: "\E02C";
+}
+
+.fmc-menu_email:before {
+	content: "\E02D";
+}
+
+.fmc-menu_instagram:before {
+	content: "\E02E";
+}
+
+.fmc-menu_logout:before {
+	content: "\E02F";
+}
+
+.fmc-menu_phone:before {
+	content: "\E030";
+}
+
+.fmc-menu_plan:before {
+	content: "\E031";
+}
+
+.fmc-menu_rate:before {
+	content: "\E032";
+}
+
+.fmc-menu_share:before {
+	content: "\E033";
+}
+
+.fmc-menu_talk_us:before {
+	content: "\E034";
+}
+
+.fmc-menu_use:before {
+	content: "\E035";
+}

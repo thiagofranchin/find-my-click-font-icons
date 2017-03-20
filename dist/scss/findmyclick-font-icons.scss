@@ -153,6 +153,39 @@
 	@if $filename == menu_settings {
 		$char: "\E02A";
 	}
+	@if $filename == ctg_advertising {
+		$char: "\E02B";
+	}
+	@if $filename == eqp_go_pro {
+		$char: "\E02C";
+	}
+	@if $filename == menu_email {
+		$char: "\E02D";
+	}
+	@if $filename == menu_instagram {
+		$char: "\E02E";
+	}
+	@if $filename == menu_logout {
+		$char: "\E02F";
+	}
+	@if $filename == menu_phone {
+		$char: "\E030";
+	}
+	@if $filename == menu_plan {
+		$char: "\E031";
+	}
+	@if $filename == menu_rate {
+		$char: "\E032";
+	}
+	@if $filename == menu_share {
+		$char: "\E033";
+	}
+	@if $filename == menu_talk_us {
+		$char: "\E034";
+	}
+	@if $filename == menu_use {
+		$char: "\E035";
+	}
 
 	@return $char;
 }
@@ -293,4 +326,37 @@
 }
 .fmc-menu_settings {
 	@include fmc(menu_settings);
+}
+.fmc-ctg_advertising {
+	@include fmc(ctg_advertising);
+}
+.fmc-eqp_go_pro {
+	@include fmc(eqp_go_pro);
+}
+.fmc-menu_email {
+	@include fmc(menu_email);
+}
+.fmc-menu_instagram {
+	@include fmc(menu_instagram);
+}
+.fmc-menu_logout {
+	@include fmc(menu_logout);
+}
+.fmc-menu_phone {
+	@include fmc(menu_phone);
+}
+.fmc-menu_plan {
+	@include fmc(menu_plan);
+}
+.fmc-menu_rate {
+	@include fmc(menu_rate);
+}
+.fmc-menu_share {
+	@include fmc(menu_share);
+}
+.fmc-menu_talk_us {
+	@include fmc(menu_talk_us);
+}
+.fmc-menu_use {
+	@include fmc(menu_use);
 }
