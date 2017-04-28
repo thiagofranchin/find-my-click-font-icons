@@ -232,3 +232,15 @@
 .fmc-menu_use:before {
 	content: "\E035";
 }
+
+.fmc-menu_edit:before {
+	content: "\E036";
+}
+
+.fmc-menu_inative:before {
+	content: "\E037";
+}
+
+.fmc-menu_options:before {
+	content: "\E038";
+}

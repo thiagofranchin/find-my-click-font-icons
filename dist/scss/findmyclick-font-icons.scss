@@ -186,6 +186,15 @@
 	@if $filename == menu_use {
 		$char: "\E035";
 	}
+	@if $filename == menu_edit {
+		$char: "\E036";
+	}
+	@if $filename == menu_inative {
+		$char: "\E037";
+	}
+	@if $filename == menu_options {
+		$char: "\E038";
+	}
 
 	@return $char;
 }
@@ -359,4 +368,13 @@
 }
 .fmc-menu_use {
 	@include fmc(menu_use);
+}
+.fmc-menu_edit {
+	@include fmc(menu_edit);
+}
+.fmc-menu_inative {
+	@include fmc(menu_inative);
+}
+.fmc-menu_options {
+	@include fmc(menu_options);
 }
