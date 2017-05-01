@@ -244,3 +244,7 @@
 .fmc-menu_options:before {
 	content: "\E038";
 }
+
+.fmc-map_marker:before {
+	content: "\E039";
+}
