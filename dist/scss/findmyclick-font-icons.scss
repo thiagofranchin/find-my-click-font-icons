@@ -195,6 +195,9 @@
 	@if $filename == menu_options {
 		$char: "\E038";
 	}
+	@if $filename == map_marker {
+		$char: "\E039";
+	}
 
 	@return $char;
 }
@@ -377,4 +380,7 @@
 }
 .fmc-menu_options {
 	@include fmc(menu_options);
+}
+.fmc-map_marker {
+	@include fmc(map_marker);
 }
