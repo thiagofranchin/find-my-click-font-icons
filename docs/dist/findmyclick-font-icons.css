@@ -248,3 +248,7 @@
 .fmc-map_marker:before {
 	content: "\E039";
 }
+
+.fmc-new_photo:before {
+	content: "\E03A";
+}
