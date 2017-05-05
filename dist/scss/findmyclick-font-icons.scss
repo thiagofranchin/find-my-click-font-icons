@@ -198,6 +198,9 @@
 	@if $filename == map_marker {
 		$char: "\E039";
 	}
+	@if $filename == new_photo {
+		$char: "\E03A";
+	}
 
 	@return $char;
 }
@@ -383,4 +386,7 @@
 }
 .fmc-map_marker {
 	@include fmc(map_marker);
+}
+.fmc-new_photo {
+	@include fmc(new_photo);
 }
