@@ -252,3 +252,7 @@
 .fmc-new_photo:before {
 	content: "\E03A";
 }
+
+.fmc-web:before {
+	content: "\E03B";
+}

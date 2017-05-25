@@ -201,6 +201,9 @@
 	@if $filename == new_photo {
 		$char: "\E03A";
 	}
+	@if $filename == web {
+		$char: "\E03B";
+	}
 
 	@return $char;
 }
@@ -389,4 +392,7 @@
 }
 .fmc-new_photo {
 	@include fmc(new_photo);
+}
+.fmc-web {
+	@include fmc(web);
 }
